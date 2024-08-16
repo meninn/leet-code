@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+static class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = 1; j < nums.length; j++) {
@@ -16,7 +16,7 @@ class Solution {
 
 
 public void main() {
-    Solution solution = new Solution();
+    Solution1 solution = new Solution1();
 
     int[] nums = {2, 7, 11, 15};
     int target = 9;
